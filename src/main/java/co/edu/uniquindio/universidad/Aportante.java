@@ -1,6 +1,5 @@
 package co.edu.uniquindio.universidad;
 
-/** Aportante registrado. Sus datos no se modifican después de creados (record inmutable). */
 public record Aportante(String identificacion, String nombre, String correo) {
 
     public Aportante {
